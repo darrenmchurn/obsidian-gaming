@@ -7,7 +7,7 @@ import { teams } from '@/data/teams'
 import { events } from '@/data/events'
 
 const socials = [
-  { name: 'YouTube', href: 'https://youtube.com/@ObsidianGaming', label: 'Watch on YouTube' },
+  { name: 'YouTube', href: 'https://youtube.com/@ObisidianGamingOfficial', label: 'Watch on YouTube' },
   { name: 'Twitch', href: 'https://twitch.tv/ObsidianGaming', label: 'Stream on Twitch' },
   { name: 'Instagram', href: 'https://instagram.com/ObsidianGaming', label: 'Follow on Instagram' },
   { name: 'TikTok', href: 'https://tiktok.com/@ObsidianGaming', label: 'Follow on TikTok' },
