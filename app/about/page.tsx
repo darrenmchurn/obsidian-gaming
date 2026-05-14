@@ -25,7 +25,7 @@ const staff = [
   {
     name: 'Casey Odom',
     role: 'Head of Content',
-    bio: "Drives OBG's social presence, stream production, and player storytelling across all platforms.",
+    bio: "Drives OBSN's social presence, stream production, and player storytelling across all platforms.",
   },
 ]
 
@@ -91,7 +91,7 @@ export default function AboutPage() {
             {/* Timeline */}
             <div className="space-y-6">
               {[
-                { year: '2022', event: 'Founded with OBG Valorant roster' },
+                { year: '2022', event: 'Founded with OBSN Valorant roster' },
                 { year: '2023', event: 'Expanded to CS2 and Rocket League' },
                 { year: '2024', event: 'Added Apex Legends and Overwatch 2' },
                 { year: '2025', event: 'Launched Call of Duty division & won first Tier-A title' },

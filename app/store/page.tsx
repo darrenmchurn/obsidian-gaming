@@ -44,7 +44,7 @@ export default function StorePage() {
           <div className="flex items-end justify-between">
             <SectionHeader
               label="Official Merch"
-              title="OBG Store"
+              title="OBSN Store"
               subtitle="Represent the org. Built for fans who take it as seriously as we do."
             />
             {/* Cart indicator */}

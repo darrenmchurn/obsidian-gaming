@@ -1,4 +1,5 @@
 import Link from 'next/link'
+import Image from 'next/image'
 
 export default function HeroSection() {
   return (
@@ -28,7 +29,7 @@ export default function HeroSection() {
       {/* Content */}
       <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
         {/* Eyebrow */}
-        <div className="inline-flex items-center gap-2 mb-8">
+        <div className="inline-flex items-center gap-2 mb-10">
           <span className="h-px w-8 bg-accent" />
           <span className="font-display font-semibold text-accent text-sm uppercase tracking-[0.3em]">
             Esports Organization
@@ -36,18 +37,22 @@ export default function HeroSection() {
           <span className="h-px w-8 bg-accent" />
         </div>
 
-        {/* Main heading */}
-        <h1 className="font-display font-black text-6xl sm:text-7xl md:text-8xl lg:text-9xl text-white uppercase leading-none mb-6">
-          Obsidian
-          <br />
-          <span className="text-glow" style={{ color: '#f97316' }}>
-            Gaming
-          </span>
-        </h1>
+        {/* Logo as primary hero image */}
+        <div className="flex justify-center mb-8">
+          <Image
+            src="/logo.png"
+            alt="Obsidian Gaming"
+            width={600}
+            height={180}
+            className="w-full max-w-sm md:max-w-lg lg:max-w-2xl h-auto object-contain drop-shadow-[0_0_40px_rgba(249,115,22,0.35)]"
+            priority
+          />
+        </div>
 
         {/* Tagline */}
-        <p className="text-muted text-lg md:text-xl max-w-xl mx-auto mb-10 leading-relaxed">
-          Forged in fire. Competing across six titles at the highest level of professional esports.
+        <p className="font-display font-bold text-xl md:text-2xl lg:text-3xl text-white uppercase tracking-widest mb-10">
+          Forged in Fire.{' '}
+          <span className="text-accent text-glow">Unbreakable in Battle.</span>
         </p>
 
         {/* CTAs */}

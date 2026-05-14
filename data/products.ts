@@ -11,7 +11,7 @@ export interface Product {
 export const products: Product[] = [
   {
     id: '1',
-    name: 'OBG Pro Jersey 2026',
+    name: 'OBSN Pro Jersey 2026',
     price: 79.99,
     category: 'jersey',
     description: 'Official team jersey worn by our pros. Moisture-wicking performance fabric with full sublimation print.',
@@ -29,7 +29,7 @@ export const products: Product[] = [
   },
   {
     id: '3',
-    name: 'OBG Classic Tee',
+    name: 'OBSN Classic Tee',
     price: 34.99,
     category: 'tshirt',
     description: 'Clean, comfortable tee with the Obsidian Gaming wordmark. Available in black and charcoal.',
@@ -40,7 +40,7 @@ export const products: Product[] = [
     name: 'Obsidian Snapback Cap',
     price: 39.99,
     category: 'hat',
-    description: 'Structured snapback with embroidered OBG logo and adjustable strap. One size fits most.',
+    description: 'Structured snapback with embroidered OBSN logo and adjustable strap. One size fits most.',
   },
   {
     id: '5',
@@ -52,7 +52,7 @@ export const products: Product[] = [
   },
   {
     id: '6',
-    name: 'OBG Valorant Team Jersey',
+    name: 'OBSN Valorant Team Jersey',
     price: 74.99,
     category: 'jersey',
     description: 'Replica jersey for our Valorant roster. Lightweight, breathable, game-ready.',
@@ -63,7 +63,7 @@ export const products: Product[] = [
     name: 'Obsidian Zip Hoodie',
     price: 94.99,
     category: 'hoodie',
-    description: 'Full-zip fleece hoodie with dual pockets and woven OBG patch on the chest.',
+    description: 'Full-zip fleece hoodie with dual pockets and woven OBSN patch on the chest.',
     sizes: ['XS', 'S', 'M', 'L', 'XL', 'XXL'],
   },
   {
@@ -75,9 +75,9 @@ export const products: Product[] = [
   },
   {
     id: '9',
-    name: 'OBG Lanyard + ID Badge',
+    name: 'OBSN Lanyard + ID Badge',
     price: 12.99,
     category: 'accessories',
-    description: 'Woven lanyard with metal clip and a collectible OBG ID badge holder.',
+    description: 'Woven lanyard with metal clip and a collectible OBSN ID badge holder.',
   },
 ]

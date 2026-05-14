@@ -19,7 +19,7 @@ export const teams: Team[] = [
   {
     slug: 'valorant',
     game: 'Valorant',
-    shortName: 'OBG VAL',
+    shortName: 'OBSN VAL',
     fullName: 'Obsidian Gaming Valorant',
     color: '#ff4655',
     description:
@@ -35,7 +35,7 @@ export const teams: Team[] = [
   {
     slug: 'cs2',
     game: 'CS2',
-    shortName: 'OBG CS2',
+    shortName: 'OBSN CS2',
     fullName: 'Obsidian Gaming CS2',
     color: '#f97316',
     description:
@@ -51,7 +51,7 @@ export const teams: Team[] = [
   {
     slug: 'apex',
     game: 'Apex Legends',
-    shortName: 'OBG APEX',
+    shortName: 'OBSN APEX',
     fullName: 'Obsidian Gaming Apex Legends',
     color: '#cd4220',
     description:
@@ -65,7 +65,7 @@ export const teams: Team[] = [
   {
     slug: 'cod',
     game: 'Call of Duty',
-    shortName: 'OBG COD',
+    shortName: 'OBSN COD',
     fullName: 'Obsidian Gaming Call of Duty',
     color: '#8b5cf6',
     description:
@@ -80,7 +80,7 @@ export const teams: Team[] = [
   {
     slug: 'overwatch',
     game: 'Overwatch 2',
-    shortName: 'OBG OW',
+    shortName: 'OBSN OW',
     fullName: 'Obsidian Gaming Overwatch 2',
     color: '#f99e1a',
     description:
@@ -96,7 +96,7 @@ export const teams: Team[] = [
   {
     slug: 'rocket-league',
     game: 'Rocket League',
-    shortName: 'OBG RL',
+    shortName: 'OBSN RL',
     fullName: 'Obsidian Gaming Rocket League',
     color: '#06b6d4',
     description:
