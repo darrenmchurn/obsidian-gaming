@@ -25,7 +25,7 @@ const staff = [
   {
     name: 'Casey Odom',
     role: 'Head of Content',
-    bio: 'Drives OBG's social presence, stream production, and player storytelling across all platforms.',
+    bio: "Drives OBG's social presence, stream production, and player storytelling across all platforms.",
   },
 ]
 
@@ -36,7 +36,7 @@ const values = [
   },
   {
     title: 'Players First',
-    body: 'Salaries, health, mental wellness, equipment — we invest in our players beyond the game because that's what real orgs do.',
+    body: "Salaries, health, mental wellness, equipment — we invest in our players beyond the game because that's what real orgs do.",
   },
   {
     title: 'Community Over Clout',
