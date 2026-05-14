@@ -9,7 +9,7 @@ export function generateStaticParams() {
   return teams.map((team) => ({ slug: team.slug }))
 }
 
-export async function generateMetadata({ params }: { params: { slug: string } }): Promise<Metadata> {
+export function generateMetadata({ params }: { params: { slug: string } }): Metadata {
   const team = getTeamBySlug(params.slug)
   if (!team) return {}
   return {
@@ -26,7 +26,7 @@ const flagEmoji = (code: string) => {
 
 export default function TeamDetailPage({ params }: { params: { slug: string } }) {
   const team = getTeamBySlug(params.slug)
-  if (!team) notFound()
+  if (!team) return notFound()
 
   const teamEvents = events.filter((e) => e.teamSlug === team.slug)
   const upcomingEvents = teamEvents.filter((e) => e.status === 'upcoming')
