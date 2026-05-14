@@ -21,9 +21,9 @@ export default function Navbar({ cartCount = 0 }: { cartCount?: number }) {
           {/* Logo */}
           <Link href="/" className="flex items-center group">
             <Image
-              src="/logo.png"
+              src="/mark.png"
               alt="Obsidian Gaming"
-              width={160}
+              width={48}
               height={48}
               className="h-10 w-auto object-contain group-hover:opacity-80 transition-opacity"
               priority
